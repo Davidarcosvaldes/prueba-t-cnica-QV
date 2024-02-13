@@ -67,10 +67,10 @@
             <p><a href="#">Términos y Condiciones-Politica de Tratamiento de Datos</a></p>
         </div>
         <div class="footer-social-icons">
-            <a href="https://www.facebook.com/izyacademybk/" target="_blank"><img src="../img/facebook (1).svg" alt="Facebook"></a>
-            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fizy_academy" target="_blank"><img src="../img/twitter (1).svg" alt="Instagram"></a>
-            <a href="https://www.instagram.com/izy_academy/" target="_blank"><img src="../img/instagram (1).svg" alt="Twitter"></a>
-            <a href="https://www.linkedin.com/company/izy-academy?originalSubdomain=co" target="_blank"><img src="../img/linkedin (1).svg" alt="LinkedIn"></a>
+        <a href="https://www.facebook.com/izyacademybk/" target="_blank"><img src="http://localhost/ProyectosPHP/Proyecto_PruebaTecnica/img/facebook (1).svg" alt="Facebook"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fizy_academy" target="_blank"><img src="http://localhost/ProyectosPHP/Proyecto_PruebaTecnica/img/twitter (1).svg" alt="Instagram"></a>
+            <a href="https://www.instagram.com/izy_academy/" target="_blank"><img src="http://localhost/ProyectosPHP/Proyecto_PruebaTecnica/img/instagram (1).svg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/company/izy-academy?originalSubdomain=co" target="_blank"><img src="http://localhost/ProyectosPHP/Proyecto_PruebaTecnica/img/linkedin (1).svg" alt="LinkedIn"></a>
         </div>
     </div>
     <p class="footer-copyright">&copy; 2023 IzyAcademy Marca Registrada By Qvision Technologies.</p>
