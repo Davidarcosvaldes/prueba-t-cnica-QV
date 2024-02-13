@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#registroForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#registroForm img {
+    margin-right: 15px;
+    border: 5px solid #1D3A6C;
+    border-radius: 0px 80px 0px 80px;
+}
+
+#registroForm form {
+    width: 60%;
+    max-width: 400px; /* Limitar el ancho del formulario */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#registroForm form h2 {
+    color: #1D3A6C;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#registroForm form .box #aceptoTerminos{
+    background-color: aqua;
+}
+
+#registroForm form label {
+    margin-bottom: 8px;
+    color: #2f66bf;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid rgb(225, 225, 235);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btnRegistrar {
+    background-color: #1D3A6C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px ;
+    width: 100%;
+}
+
+.btnRegistrar:hover {
+    background-color: rgb(204, 196, 188);
+}
+
+input[type="checkbox"] {
+    margin-right: 2px;
+}
+
+
+button {
+    padding: 30px;
+    background-color: #1D3A6C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    opacity: 0.7;
+    padding-top: 10px;
+}
+
+button[disabled] {
+    opacity: 0.30;
+    cursor: not-allowed;
+    
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto con el checkbox */
+}
+
+.box{
+    align-items: start;
+    justify-content: start;
+    padding:0px;
+    align-self: flex-start;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    
+}
+
+
+label input[type="checkbox"] {
+    margin-right: 2px; /* Espaciado entre el checkbox y el texto */
+    margin-right: 8px;
+}
+
+.btnRegistrar{
+    margin-top: 15px;
+    font-size: 18px;
+    width: calc(100% + 20px);
+    height: 35px;
+}
+
+.btnRegistrar:hover{
+    color: #1D3A6C;
+    background-color: rgb(204, 196, 188);
+}
+
+
+#registroForm form input[type="checkbox"] {
+    margin-right: 8px;
+
+}
+
+button[disabled] {
+    opacity: 0.25; /* Cambia la opacidad cuando el botón está deshabilitado */
+    
+}
+/*para desvore de del archivo*/
+registroForm form::after {
+    content: "";
+    display: table;
+    clear: both
+
+}
+
+
+

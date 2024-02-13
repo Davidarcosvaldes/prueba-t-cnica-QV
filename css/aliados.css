@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.aliados-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.aliados-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.aliado {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+ /* Hace que los aliados sean redondos */
+    overflow: hidden; /* Evita que las imágenes sobresalgan del círculo */
+}
+
+.aliado img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #ddd;  Borde ligero alrededor de la imagen */
+    /*border-radius: 50%;  Hace que las imágenes sean redondas */
+}
+
+h2 {
+    font-size: 32px;
+    color:#315085;
+    padding-bottom: 20px;
+}
+p{
+    color:#6a92d7;
+    font-size: 22px;
+}
+
+/* Estilo para el enlace al pasar el ratón sobre el aliado */
+.aliado a {
+    text-decoration: none;
+    color: #333;
+}
+
+.aliado a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón sobre el aliado */
+}
+
+
+
+/* Ajusta el ancho máximo según tus necesidades */
+/* Ajusta el ancho máximo según tus necesidades */
+@media (min-width: 901px) {
+    .aliado {
+        width: calc(100% / 9 - 20px); /* Acomoda todos los aliados en una sola fila */
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    .aliado {
+        width: calc(100% / 4 - 20px); /* Acomoda 4 aliados por fila en dispositivos medianos */
+    }
+}
+
+@media (max-width: 600px) {
+    .aliado {
+        width: calc(100% / 1 - 20px); /* Acomoda 2 aliados por fila en dispositivos más pequeños */
+    }
+}

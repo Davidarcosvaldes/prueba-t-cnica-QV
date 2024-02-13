@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  header {
+    background-image: url("https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/1/slide-paginaprincipal_optimized_optimized.01-%281%29.png");
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    margin-right: 20px;
+    position: relative;
+  }
+
+  li:hover ul {
+    display: block;
+  }
+
+  ul ul {
+    display: none;
+    position: absolute;
+    background-color: #1D3A6C;
+    border-radius: 5px;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 200px;
+  }
+
+  ul ul li {
+    margin-right: 0;
+  }
+
+  .user-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .lupa-icon {
+    width: 20px;
+    height: auto;
+  }
+
+  .text-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Consultas de medios para hacer el header responsivo a 600px */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    ul ul {
+      position: static;
+      width: 100%;
+      background-color: transparent;
+      padding: 0;
+      display: none;
+    }
+
+    .icons {
+      margin-top: 20px;
+    }
+  }

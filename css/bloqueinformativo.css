@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Hace que el cuerpo ocupe el 100% del alto de la ventana */
+    margin: 0; /* Hace que el cuerpo ocupe el 100% del alto de la ventana */
+    
+  }
+  
+  .novedades {
+    display: grid;
+     /* Cuatro columnas en total (dos para grande y dos para pequeñas) */
+    grid-gap: 30px; /* Espacio entre tarjetas */
+    padding: 20px;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    width: 100%; /* Asegura que el ancho sea el 100% del contenedor */
+    margin: 20 auto;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+  }
+
+  .titulo{
+    margin: 0;
+    padding: 0;
+    grid-column: span 3;
+    text-align: start;
+    margin-top: 0px;
+    color:#1D3A6C ;
+    max-height: 30px;
+    
+  }
+
+
+  .titulo h2 {
+    margin-top: 5px;
+  }
+  
+  .grande-card {
+    grid-column: span 2; /* La tarjeta grande ocupa dos columnas de ancho */
+    grid-row: span 2; /* La tarjeta grande ocupa dos filas de alto */
+    width: 100%;
+    height: 80%;
+  }
+
+  .grande-card .promocion{
+    border-top: 3px solid #1D3A6C; /* Borde superior de 3 píxeles de grosor, color negro */
+    border-bottom: 3px solid #1D3A6C; /* Borde inferior de 3 píxeles de grosor, color negro */
+    padding: 10px;
+  }
+  
+  .pequeña-card {
+    display: grid;
+    grid-template-columns:repeat(2, calc(50% - 5px));  /* repeat(2, 1fr) Dos columnas para las tarjetas pequeñas */
+    grid-gap: 10px; /* Espacio entre tarjetas pequeñas */
+    height: 80%;
+    width: 100%;
+    
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {  
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px ;
+    
+  }
+  .card  h2{
+    background-color: #1D3A6C;
+    color: #fff;
+    margin-left: 10px 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden; /* Evita que el contenido se desborde */
+    white-space: nowrap; /* Evita el salto de línea */
+    text-overflow: ellipsis;
+    font-size: 34px;
+    margin: 5px 0;
+  }
+
+  .card p{
+    text-align: start;
+    margin-top: 5px;
+  }
+  
+  .card-content {
+    box-sizing: border-box;
+    color:#1D3A6C ;
+    
+  }
+
+.pequeña-card .card h4{
+    background-color: #1D3A6C;
+    color: #fff;
+    margin-left: 10px 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden; /* Evita que el contenido se desborde */
+    white-space: nowrap; /* Evita el salto de línea */
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    }
+  

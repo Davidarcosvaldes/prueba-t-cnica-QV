@@ -1,0 +1,140 @@
+
+body {
+    background-color: rgb(173, 216, 216);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+/*Estilos header*/
+header {
+    background-color: #1D3A6C;
+    color: #ffffff;
+    padding: 0 20px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.header {
+    display: flex;
+}
+
+.logo-empresa{
+    width: 150px;
+    height: auto;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url("https://izyacademy.com/pluginfile.php/10700/block_cocoon_slider_1/slides/1/slide-paginaprincipal_optimized_optimized.01-%281%29.png");
+    background-size: cover;
+    padding: 10px 20px;
+    color: #ffffff;
+    min-height: 450px;
+    text-align: center;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.submenu a {
+    display: block;
+    color: #0c2551;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: start;
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+
+.iniciar-sesion{
+    padding-bottom: 60px;
+    height: auto;
+    display: flex;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 20px; 
+    
+}
+
+.iniciar-sesion a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+
+.iniciar-sesion a:hover{
+    text-decoration: underline;
+}
+
+header  .texto{
+    display: block;
+    margin-top: 150px;
+    font-size: 22px;
+
+}
+
+header  .texto-content h1{
+    display: list-item;
+    text-align: center;
+}
+
+header  .texto p{
+    text-align: left;
+}
